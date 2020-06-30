@@ -9,7 +9,7 @@ class Keyring::Backend::GnomeKeyring < Keyring::Backend
   register_implementation(self)
 
   def initialize
-    require 'gir_ffi-gnome_keyring'
+    #require 'gir_ffi-gnome_keyring'
   rescue LoadError
   end
   def supported?
